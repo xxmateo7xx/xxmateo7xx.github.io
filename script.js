@@ -31,5 +31,5 @@ function przelaczWidocznoscMenu(elementMenu)
     }
 }
 
-// Uruchomienie skryptu po załadowaniu drzewa DOM
+
 document.addEventListener('DOMContentLoaded', inicjalizujMenu);
