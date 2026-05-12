@@ -1,0 +1,74 @@
+/* Reset podstawowy */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.naglowek
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+}
+
+.logo
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover
+{
+    color: #007bff;
+}
+
+#przycisk-menu-mobilne
+{
+    display: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Prosta responsywność dla ekranów mobilnych */
+@media (max-width: 768px)
+{
+    nav ul
+    {
+        display: none; /* Ukrywamy menu na start w mobilce */
+    }
+    
+    #przycisk-menu-mobilne
+    {
+        display: block;
+    }
+}
