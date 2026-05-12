@@ -96,3 +96,58 @@ nav a:hover
     margin-bottom: 1rem;
     color: #555;
 }
+
+/* --- Sekcja: Umiejętności --- */
+.sekcja-umiejetnosci
+{
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sekcja-umiejetnosci h2
+{
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 2rem;
+}
+
+.lista-umiejetnosci
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.kafelek-umiejetnosc
+{
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 280px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kafelek-umiejetnosc:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+}
+
+.kafelek-umiejetnosc h3
+{
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.kafelek-umiejetnosc p
+{
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.4;
+}
