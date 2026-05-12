@@ -151,3 +151,85 @@ nav a:hover
     color: #666;
     line-height: 1.4;
 }
+
+/* --- Sekcja: Projekty --- */
+.sekcja-projekty
+{
+    padding: 4rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sekcja-projekty h2
+{
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 2.5rem;
+}
+
+.siatka-projektow
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.karta-projektu
+{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-align: left;
+    border-top: 4px solid #007bff;
+    display: flex;
+    flex-direction: column;
+}
+
+.karta-projektu h3
+{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.karta-projektu p
+{
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.tagi
+{
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #007bff;
+    background-color: #e6f2ff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    align-self: flex-start;
+}
+
+.przycisk-repo
+{
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #24292e; /* Kolor kojarzący się z GitHubem */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.przycisk-repo:hover
+{
+    background-color: #0366d6;
+}
