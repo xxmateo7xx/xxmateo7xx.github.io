@@ -72,3 +72,27 @@ nav a:hover
         display: block;
     }
 }
+
+/* --- Sekcja: O mnie --- */
+.sekcja-o-mnie
+{
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sekcja-o-mnie h2
+{
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+.tresc-o-mnie p
+{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #555;
+}
